@@ -1,0 +1,13 @@
+<template  >
+ <!-- Base variant: Makes a button look like a link -->
+ <div style="background:wheat">
+ <lightning-combobox
+            name="ChartType"
+            label="Chart Types"
+            placeholder="Select Chart"
+            options={options}
+            onchange={handleSeletion} ></lightning-combobox>
+</br>
+ <canvas class="mychart" height="1000px" width="1000px"></canvas>
+</div>
+</template>
