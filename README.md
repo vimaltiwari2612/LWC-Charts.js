@@ -6,6 +6,8 @@
 1. Put chartJs in static Resource.
 2. copy paste LWC and classes.
 
+![Demo](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/main/screenshot/Demo.gif)
+
 # Charts
   ***Bar***
 ![bar](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/main/screenshot/bar.png)
