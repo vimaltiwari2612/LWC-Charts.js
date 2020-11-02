@@ -73,8 +73,6 @@ yAxis = "";
         this.xAxis = this.xAxis.trim();
         this.yAxis = this.yAxis.trim();
         this.query = this.query.trim();
-        
-        this.config.data.datasets.label = 'Organization '+this.xAxis+' Vs '+this.yAxis;
         this.refreshData();
     }
 
@@ -167,9 +165,5 @@ loadUI() {
         this.labels = [];
         this.colors = [];
         this.values = [];
-        this.xAxis = "";
-        this.yAxis = "";
-        this.query = "";
-        this.chartType = "";
     }
 }
