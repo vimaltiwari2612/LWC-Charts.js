@@ -7,9 +7,9 @@
 2. copy paste LWC and classes.
 
 # Create Dashboards using User Inputs
-![Demo](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/Dynamic-user-input/User_Input.gif)
+![Demo](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/main/User_Input.gif)
 
-![Screenshot](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/Dynamic-user-input/screenshot/Dynamic_Input.PNG)
+![Screenshot](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/main/screenshot/Dynamic_Input.PNG)
 
 # Charts
   ***Bar***
