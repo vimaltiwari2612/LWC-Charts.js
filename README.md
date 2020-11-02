@@ -6,7 +6,10 @@
 1. Put chartJs in static Resource.
 2. copy paste LWC and classes.
 
-![Demo](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/main/screenshot/Demo.gif)
+# Create Dashboards using User Inputs
+![Demo](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/Dynamic-user-input/User_Input.gif)
+
+![Screenshot](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/Dynamic-user-input/screenshot/Dynamic_Input.PNG)
 
 # Charts
   ***Bar***

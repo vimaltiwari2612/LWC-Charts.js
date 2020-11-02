@@ -1,13 +1,29 @@
-<template  >
- <!-- Base variant: Makes a button look like a link -->
- <div style="background:wheat">
- <lightning-combobox
-            name="ChartType"
-            label="Chart Types"
-            placeholder="Select Chart"
-            options={options}
-            onchange={handleSeletion} ></lightning-combobox>
+<template >
+<!-- Base variant: Makes a button look like a link -->
+<lightning-card  class="slds-var-m-around_large">
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col">
+           
+          
+<lightning-textarea class="slds-var-m-around_large" type="text" label="Enter Query" placeholder="Select id, name from Account" onchange={getQuery} ></lightning-textarea>
+<lightning-input class="slds-var-m-around_large" type="text" label="X-Axis" placeholder="Field's API name" onchange={getX_Axis}></lightning-input>
+<lightning-input class="slds-var-m-around_large" type="text" label="Y-Axis" placeholder="Field's API name" onchange={getY_Axis}></lightning-input>
+<lightning-combobox
+class="slds-var-m-around_large"
+        name="ChartType"
+        label="Chart Types"
+        placeholder="Select Chart"
+        onchange={getChartType}
+        options={options}
+        ></lightning-combobox>
 </br>
- <canvas class="mychart" height="1000px" width="1000px"></canvas>
+<lightning-button variant="success" label="Generate Chart" title="Generate Chart" onclick={handleSelection} class="slds-m-left_x-small slds-var-m-around_large" ></lightning-button>
 </div>
+<div class="slds-col">
+   
+<canvas class="mychart"></canvas>
+  </div>
+</div>
+</lightning-card>
+
 </template>
