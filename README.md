@@ -28,3 +28,5 @@
 ![radar](https://github.com/vimaltiwari2612/LWC-Charts.js/blob/main/screenshot/scatter.png)
 
 
+# Other Similar Project
+[Chrome Extension for creating charts like Bar, Pie, Line etc](https://github.com/vimaltiwari2612/Chrome-Extention-Charts)
